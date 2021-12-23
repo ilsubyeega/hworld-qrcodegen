@@ -1,0 +1,9 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+* {
+    font-family: "Pretendard"; /* Best Font Ever */
+}
+/* https://stackoverflow.com/questions/8228088/remove-header-and-footer-from-window-print */
+@media print {
+    @page { margin: 0; }
+    body { margin: 0; }
+  }
